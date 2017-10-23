@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<title>Template 1 </title>
+	<title>SK Portfolio </title>
 	<meta name=viewport content="width=device-width, initial-scale=1">
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 	<!-- <link rel="stylesheet" href="fanpage-style.css"> -->
 	<link rel="icon" type="image/jpg" href="http://www.dalessandroegalli.com/images/events/thumbs/236.jpg?t=1452720982">
 
@@ -29,7 +31,7 @@
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav">
+	      <ul class="nav navbar-nav navbar-right nav-pills">
 	        <li class="active">
 	        	<a href="#">
 	        		<span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home
@@ -37,43 +39,78 @@
 	        	</a>
 	        </li>
 	        <li><a href="#">About Me</a></li>
+	        <li><a href="#">Contact</a></li>
 	        <li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio<span class="caret"></span></a>
 	          <ul class="dropdown-menu">
 	            <li><a href="#">Badminton</a></li>
 	            <li><a href="#">Coding</a></li>
 	            <li><a href="#">Doggo</a></li>
 	            <li role="separator" class="divider"></li>
-	            <li><a href="#">Separated link</a></li>
+	            <li><a href="#">Another Portfolio</a></li>
 	            <li role="separator" class="divider"></li>
-	            <li><a href="#">One more separated link</a></li>
-	          </ul>
-	        </li>
-	      </ul>
-	      <form class="navbar-form navbar-left">
-	        <div class="form-group">
-	          <input type="text" class="form-control" placeholder="Search">
-	        </div>
-	        <button type="submit" class="btn btn-default">Submit</button>
-	      </form>
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">Link</a></li>
-	        <li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-	          <ul class="dropdown-menu">
-	            <li><a href="#">Action</a></li>
-	            <li><a href="#">Another action</a></li>
-	            <li><a href="#">Something else here</a></li>
-	            <li role="separator" class="divider"></li>
-	            <li><a href="#">Separated link</a></li>
+	            <li><a href="#">Upcoming Portfolio</a></li>
 	          </ul>
 	        </li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="jumbotron">
+					<div class="container">
+					  <div class="page-header">
+					  		<h1>About..</h1>
+					  </div>
+					  <div class="row">
+					  		<div class="col-md-4">
+					  			<a href="#" class="thumbnail">
+					  				<img class="homepage-logo" src="assets/images/1.jpg" alt="Shi-Kwan Tan">
+					  			</a>
+					  			<div class="caption text-center">
+									<h3>Shi-Kwan Tan</h3>
+									<p>a.k.a. SK</p>
+								</div>
+					  		</div>
+					  		<div class="col-md-8">
+					 			<p>This is a page about this dude on the left. He has three years of working experience as a programmer, during his free time, he plays a lot of badminton, cooks bunch of southeastern asian cuisines, and watches a lot of netflix. Occasionally, a dog would drop by his place to hang with him, they play fetch all day. </p>
+								<p> He is awesome with VB.NET, however he did an average job with CSS styling, especially cleaning up the stylesheet.</p>
 
-	
+								 <p class="text-right"><a class="btn btn-primary btn-lg" href="#" role="button">Check out his portfolio</a></p>
+					  		</div>
+					  </div>
+					 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="container">
+					<div class="page-header">
+						<h1>Connect With Me</h1>
+					</div>
+					<div class="row">
+						<div class="col-xs-4">
+							<a class="thumbnail" href="https://github.com/ShiKwan" target="_blank">
+								<img src="assets/images/if_git.png" alt="GIT icon">
+							</a>
+						</div>
+						<div class="col-xs-4">
+							<a class="thumbnail" href="https://www.linkedin.com/in/shi-kwan-tan-93850a89/" target="_blank">
+								<img src="assets/images/if_linkedin.png" alt="LinkedIn icon">
+							</a>
+						</div>
+						<div class="col-xs-4">
+							<a class="thumbnail" href="https://stackoverflow.com/users/8773383/shi-kwan-tan?tab=profile" target="_blank">
+								<img src="assets/images/if_stackoverflow.png" alt="StackOverflow icon">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
