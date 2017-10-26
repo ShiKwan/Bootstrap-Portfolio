@@ -8,8 +8,8 @@
 
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/css/reset.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="../assets/css/reset.css">
+	<link rel="stylesheet" href="../assets/css/style.css">
 	<!-- <link rel="stylesheet" href="fanpage-style.css"> -->
 	<link rel="icon" type="image/jpg" href="http://www.dalessandroegalli.com/images/events/thumbs/236.jpg?t=1452720982">
 
@@ -34,21 +34,21 @@
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav navbar-right nav-pills">
 			        <li>
-			        	<a href="index.html">
+			        	<a href="../index.html">
 			        		<span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home
 			        		<span class="sr-only">(current)</span>
 			        	</a>
 			        </li>
 			        <li><a href="about.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>About Me</a></li>
-			        <li class="active"><a href="contact.html"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>Contact</a></li>
-			        <li class="dropdown">
+			        <li><a href="contact.html"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>Contact</a></li>
+			        <li class="dropdown active">
 			          <a href="portfolio.html" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> Portfolio<span class="caret"></span></a>
-			         <ul class="dropdown-menu">
-			            <li><a href="portfolio.html">All Portfolio</a></li>
+			          <ul class="dropdown-menu">
+			            <li><a href="../portfolio.html">All Portfolio</a></li>
 			            <li role="separator" class="divider"></li>
 			            <li><a href="portfolio/badminton.html">Badminton</a></li>
-			            <li><a href="portfolio/coding.html">Coding</a></li>
-			            <li><a href="portfolio/doggo.html">Doggo</a></li>
+			            <li class="active"><a href="coding.html">Coding</a></li>
+			            <li><a href="doggo.html">Doggo</a></li>
 			            <li role="separator" class="divider"></li>
 			            <li><a href="#">Another Portfolio</a></li>
 			          </ul>
@@ -58,38 +58,49 @@
 			  </div><!-- /.container-fluid -->
 			</nav>
 		</header>
+		<ol class="breadcrumb">
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../portfolio.html">Portfolio</a></li>
+			<li class="active">Badminton</li>
+		</ol>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
 					<div class="panel panel-default">
 						  <div class="panel-heading">
-						  		<h1>Contact</h1>
+						  		<h1>Badminton</h1>
 						  </div>
-						  <div class="panel-body">
-							<form class="form-horizontal">
-								<div class="form-group">
-									<label for="inputName" class="col-sm-2 control-label">Name</label>
-									<div class="col-sm-10">
-										<input type="name" class="form-control" id="inputName" placeholder="John Doe">
-									</div>
+						  	<div class="panel panel-info">
+								<!-- Default panel contents -->
+								<div class="panel-heading">Coding Bootcamp: Reality vs Expectations</div>
+								<div class="panel-body">
+									<ul class="list-group">
+										<li class="list-group-item">
+											<div class="embed-responsive embed-responsive-4by3">
+												<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/SiMOTIK7vbY" frameborder="0" allowfullscreen></iframe>
+											</div>
+										</li>
+									</ul>
 								</div>
+							</div>
 
-								<div class="form-group">
-									<label for="inputEmail" class="col-sm-2 control-label">Email</label>
-									<div class="col-sm-10">
-										<input type="name" class="form-control" id="inputName" placeholder="example@example.com">
-									</div>
+							<div class="panel panel-info">
+								<!-- Default panel contents -->
+								<div class="panel-heading">CWRU Bootcamp Sources</div>
+								<div class="panel-body">
+									<ul class="list-group">
+										<li class="list-group-item">
+											<a href="http://cw.bootcampcontent.com/CW-Coding-Bootcamp/10-09-2017-Cleveland-Class-Repository-FSF/tree/master">Bootcamp Repository</a><br/>
+										</li>
+										<li class="list-group-item">
+											<a href="https://docs.google.com/spreadsheets/d/1ajOBDeoQmn4xxNiWZbLCahHYdawZ5J6G7X9ys-77VA0/edit?usp=sharing">Class Schedule</a>
+										</li>
+										<li class="list-group-item">
+											<a href="http://bootcampspot-v2.com/">Bootcamp Spot</a>
+										</li>
+									</ul>
 								</div>
-
-								<div class="form-group">
-									<label for="inputMsg" class="col-sm-2 control-label">Message</label>
-									<div class="col-sm-10">
-										<textarea class="form-control" rows="3"></textarea>
-									</div>
-								</div>
-							</form>
-						  </div>
-
+							</div>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -99,19 +110,19 @@
 						</div>
 						<div class="panel-body">
 							<div class="row">
-								<div class="col-xs-3">
+								<div class="col-md-3">
 									<a class="thumbnail" href="https://github.com/ShiKwan" target="_blank">
-										<img src="assets/images/if_git.png" alt="GIT icon">
+										<img src="../assets/images/if_git.png" alt="GIT icon">
 									</a>
 								</div>
-								<div class="col-xs-3">
+								<div class="col-md-3">
 									<a class="thumbnail" href="https://www.linkedin.com/in/shi-kwan-tan-93850a89/" target="_blank">
-										<img src="assets/images/if_linkedin.png" alt="LinkedIn icon">
+										<img src="../assets/images/if_linkedin.png" alt="LinkedIn icon">
 									</a>
 								</div>
-								<div class="col-xs-3">
+								<div class="col-md-3">
 									<a class="thumbnail" href="https://stackoverflow.com/users/8773383/shi-kwan-tan?tab=profile" target="_blank">
-										<img src="assets/images/if_stackoverflow.png" alt="StackOverflow icon">
+										<img src="../assets/images/if_stackoverflow.png" alt="StackOverflow icon">
 									</a>
 								</div>
 							</div>

@@ -30,9 +30,6 @@ footer {
 	background-color: #4aaaa5;
 	color:white;
 }
-ul.navbar-nav li.active a {
-background-color:#4aaaa5;
-}
 
 .photo {
 	position: relative;
@@ -66,4 +63,6 @@ background-color:#4aaaa5;
 	width: 100%;
 	border-radius: 0;
 	height:auto;
+	border-top: solid gray 1px;
+	padding-top:15px;
 }
