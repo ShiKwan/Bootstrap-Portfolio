@@ -85,6 +85,11 @@ img.tbd:hover {
 	  opacity:0.6;
 }
 
+.button-container{
+	float:right;
+	text-align: right;
+}
+
 .clearfix { display: inline-block; }
 
 .navbar-fixed-bottom {
